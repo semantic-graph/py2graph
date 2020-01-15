@@ -1,0 +1,15 @@
+{
+  "name": "py2graph-src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@msrvida/python-program-analysis": "^0.4.1",
+    "@types/node": "^12.12.14"
+  }
+}
