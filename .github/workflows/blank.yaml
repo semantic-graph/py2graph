@@ -13,7 +13,6 @@ jobs:
         node-version: 12.x
     - name: Test py2graph
       run: |
-        cd tools/py2graph-src
         npm install
         ./py2graph examples/main.py
 
