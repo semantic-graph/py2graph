@@ -1,4 +1,8 @@
 #!/bin/bash
 
+if [ ! -d "node_modules" ]; then
+  npm install
+fi
+
 tsc index.ts
 node index.js $1
